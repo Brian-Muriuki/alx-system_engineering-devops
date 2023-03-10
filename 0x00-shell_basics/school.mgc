@@ -1,2 +1,1 @@
-0 string SCHOOL school
-$ file -m < *
+if grep -q "^SCHOOL" *; then echo "school"; fi
