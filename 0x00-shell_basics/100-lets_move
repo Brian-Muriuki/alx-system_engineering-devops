@@ -1,0 +1,2 @@
+#!/bin/bash
+shopt -s nullglob; for f in [[:upper:]]*; do mv -- "$f" /tmp/u/; done
